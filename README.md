@@ -12,7 +12,7 @@ This repository provides a *lightweight and efficient* implementation of *image-
 ## Requirements
 Ensure you have the following dependencies installed before running the scripts:
 
-bash
+
 pip install opencv-python
 
 
@@ -22,7 +22,7 @@ pip install opencv-python
 This script embeds a secret message inside an image by modifying pixel values.
 
 Run the script:
-bash
+
 python encrypt.py
 
 #### Steps:
@@ -60,6 +60,8 @@ python decrypt.py
 
 ## License
 This project is licensed under the *MIT License*.
+
+
 
 ## Contributions
 Contributions are encouraged! Feel free to submit *issues* or *pull requests* for enhancements.
