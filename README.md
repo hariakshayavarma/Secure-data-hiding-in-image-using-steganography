@@ -13,7 +13,9 @@ This repository provides a *lightweight and efficient* implementation of *image-
 Ensure you have the following dependencies installed before running the scripts:
 
 
+```bash
 pip install opencv-python
+```
 
 
 ## Usage
@@ -21,9 +23,9 @@ pip install opencv-python
 ### Encryption (Hiding a Message)
 This script embeds a secret message inside an image by modifying pixel values.
 
-Run the script:
-
+```python
 python encrypt.py
+```
 
 #### Steps:
 1. Enter the secret message you wish to hide.
@@ -33,9 +35,9 @@ python encrypt.py
 ### Decryption (Retrieving the Message)
 This script extracts the hidden message from the encrypted image.
 
-Run the script:
-bash
+```python
 python decrypt.py
+```
 
 #### Steps:
 1. Enter the passcode used during encryption.
@@ -44,7 +46,7 @@ python decrypt.py
 ## Files in Repository
 - encrypt.py - Script to embed a message inside an image.
 - decrypt.py - Script to retrieve the hidden message from an image.
-- sample.jpg - Sample image for testing purposes.
+- image.jpg - Sample image for testing purposes.
 
 ## Important Notes
 - The passcode serves as authentication but does *not* encrypt the message. Future updates could integrate encryption techniques like AES for enhanced security.
