@@ -32,7 +32,7 @@ n = 0
 m = 0
 z = 0
 
-pas = input("Enter passcode for Decryption")
+pas = input("Enter passcode for Decryption:")
 if password == pas:
     for i in range(len(msg)):
         message = message + c[img[n, m, z]]
@@ -41,4 +41,4 @@ if password == pas:
         z = (z + 1) % 3
     print("Decryption message:", message)
 else:
-    print("YOU ARE NOT auth")
+    print("YOU ARE NOT authorized")
